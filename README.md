@@ -1,4 +1,4 @@
-# Express React SSR views
+# Express JSX (React) views
 
 
 
