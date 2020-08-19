@@ -36,7 +36,7 @@ npm run start:dev
 
 ## Step by step guide
 
-If you are only interested in checking the code and running the example you may skip the below step by step guide, which is a step by step guide for creating a basic express server using a `express-react-views` view engine and JSX.
+If you are only interested in checking the code and running the example you may skip the below step by step guide, which serves as a guide for creating a basic express server, using a `express-react-views` view engine and JSX.
 
 
 
