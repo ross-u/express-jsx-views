@@ -4,7 +4,7 @@ function Layout({ children }) {
   return (
     <html>
       <head>
-
+        <link rel="stylesheet" href="/css/style.css" />
       </head>
       <body style={{ backgroundColor: 'paleturquoise' }}>
         {children}
