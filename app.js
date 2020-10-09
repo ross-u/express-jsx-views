@@ -16,8 +16,10 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(express.static(path.join(__dirname, 'public')));
+// SAME AS:
+// app.use('/', express.static('public'));
 
 // Basic home route rendering a view
 app.get('/', function (req, res, next) {
